@@ -1,0 +1,88 @@
+body{
+    background: #222222;
+}
+
+.nav-list-1{
+    text-decoration: none;
+    margin: 0 !important;
+    list-style-type: none;
+}
+
+.nav-list-1 li{
+    float: left;
+    color: white !important;
+    font-size: 12px;
+    padding: 20px;
+    /* background: blue; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10px;
+}
+.nav-list-1 li:hover{
+    background: white;
+    color:black !important;
+    border-radius: 20px;
+}
+.nav{
+    float: right;
+    width: 903px;
+}
+.logo{
+    float: left;
+    padding: 12px;
+}
+.logo img{
+    width: 113px;
+}
+
+.nav-header{
+    margin: 3% 9% 0 9%;
+    height: 51px;
+}
+.right-div{
+    background: #ffd502;
+    float: right;
+    z-index: -4;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+}
+.nav-icons{
+    position: absolute;
+    right: 20px;
+    width: 300px;
+}
+.body-content{
+    margin: 0% 10%; 
+    margin-top: 10%;
+}
+h3{
+    font-size: 12px;
+    color: #ffd502;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-title{
+    font-size: 41px;
+    width: 505px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.africa{
+    position: absolute;
+    /* float: right; */
+    top: 22%;
+    right: 12%;
+    z-index: -2;
+    /* width: 300px; */
+}
+.africa img{
+    width: 689px;
+}
+.author-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
