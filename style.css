@@ -84,6 +84,14 @@ h3{
 }
 .africa img{
     width: 689px;
+    border-bottom: 15px solid #ffd502;
+}
+.right-list{
+    margin: 62px 0 0 0 ;
+}
+.right-list li{
+    float: left;
+    padding: 0 20px;
 }
 .author-pic{
     width: 50px;
