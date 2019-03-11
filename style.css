@@ -15,12 +15,17 @@ body{
     padding: 20px;
     /* background: blue; */
     font-family: 'Open Sans', sans-serif;
-    margin: 0 10px;
+    margin: 0 9px;
+    transition: border 0s;
+    transition: 1s;
 }
 .nav-list-1 li:hover{
-    background: white;
-    color:black !important;
-    border-radius: 20px;
+    background: none;
+    color: white !important;
+    border-radius: 5px;
+    margin: 0 8px;
+    padding: 20px;
+    border: 1px solid yellow;
 }
 .nav{
     float: right;
@@ -85,4 +90,18 @@ h3{
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
+}
+.see-article{
+    background: none;
+    border: 1px solid yellow;
+    padding: 10px 20px;
+    margin-left: 128px;
+    color: white;
+}
+.see-article:hover{
+    background: white;
+    border: 1px solid yellow;
+    padding: 10px 20px;
+    margin-left: 128px;
+    color: white;
 }
