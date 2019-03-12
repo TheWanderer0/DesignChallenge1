@@ -1,5 +1,6 @@
 body{
     background: #222222;
+    margin: 0 ;
 }
 
 .nav-list-1{
@@ -112,4 +113,29 @@ h3{
     padding: 10px 20px;
     margin-left: 128px;
     color: white;
+}
+.divs-below{
+    float: left;
+    width: 20%;
+    height: 159px;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#div5{
+    background: black;
+}
+
+#div5-container{
+    text-align: center;
+    margin-top: 64px;
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#div4{
+    background: url('img/div4.PNG') no-repeat center center;
+    background-size: cover;
 }
